@@ -32,7 +32,7 @@ async def download_file(url, dest):
 #     return learn
 
 async def setup_learner():
-    await download_file(model_file_url, path/model_file_url)
+    await download_file(model_file_url,'D:\#Dulieu\Documents\GitHub\chimpanzees-gorrila-pongo-cl'/path/model_file_url)
     try:
         learn = load_learner(path, model_file_url)
         return learn
